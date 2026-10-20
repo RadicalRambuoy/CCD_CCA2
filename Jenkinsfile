@@ -12,7 +12,7 @@ pipeline {
 
         stage('Build Java App') {
             steps {
-                sh 'javac --release 8 habit.java'
+                sh 'javac habit.java'
             }
         }
 
