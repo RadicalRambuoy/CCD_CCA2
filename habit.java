@@ -671,7 +671,7 @@ class GUIhabit
         frame.getContentPane().setBackground(habit_theme.BACKGROUND);
 
         JLabel title = new JLabel("HabitHarmony", SwingConstants.CENTER);
-        JLabel subtitle = new JLabel("Make an effort to keep working on your habits.", SwingConstants.CENTER);
+        JLabel subtitle = new JLabel("Make progress by building Habits.", SwingConstants.CENTER);
 
         JButton login_button = new JButton("Login");
         JButton register_button = new JButton("Register");
